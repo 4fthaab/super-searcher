@@ -1,0 +1,54 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container, #map-container {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+/* Styles for Search Page */
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Styles for Map */
+#map {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.rack {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  gap: 2px;
+}
+
+.rack div {
+  width: 15px;
+  height: 15px;
+  background-color: lightgray;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 10px;
+}
+
+.highlight {
+  background-color: yellow;
+}
